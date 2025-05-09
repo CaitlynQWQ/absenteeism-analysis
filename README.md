@@ -89,10 +89,10 @@ cd absenteeism-analysis
 ```
 Open the notebooks in JupyterLab or VS Code and execute in order:
 
-01.Data_Preprocessing.ipynb
-
-02.Modeling_Logistic_Regression.ipynb
-
-03.Integration_Connect_Python_SQL.ipynb
+  01.Data_Preprocessing.ipynb
+  
+  02.Modeling_Logistic_Regression.ipynb
+  
+  03.Integration_Connect_Python_SQL.ipynb
 
 Ensure MySQL server is running and predicted_outputs database/table is created.
