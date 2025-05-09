@@ -62,3 +62,32 @@ CREATE TABLE predicted_outputs (
   probability FLOAT NOT NULL,
   prediction BIT NOT NULL
 );
+```
+---
+## Project Structure
+
+absenteeism-analysis/
+├── 01.Data_Preprocessing.ipynb             # Cleaning, transformation
+├── 02.Modeling_Logistic_Regression.ipynb   # Logistic regression training & evaluation
+├── 03.Integration_Connect_Python_SQL.ipynb # Connect and write predictions to MySQL
+├── absenteeism_module.py                   # Custom model & scaler classes
+├── Absenteeism_data.xlsx                   # Raw data
+├── Absenteeism_preprocessed_01.xlsx        # Cleaned data (optional reference)
+├── model                                   # Pickled model (.pkl)
+├── scaler                                  # Pickled scaler (.pkl)
+├── SQLquery.sql                            # SQL table schema
+└── README.md                               # You’re here!
+---
+## How to Run
+Clone the repository:
+git clone https://github.com/CaitlynQWQ/absenteeism-analysis.git
+cd absenteeism-analysis
+Open the notebooks in JupyterLab or VS Code and execute in order:
+
+01.Data_Preprocessing.ipynb
+
+02.Modeling_Logistic_Regression.ipynb
+
+03.Integration_Connect_Python_SQL.ipynb
+
+Ensure MySQL server is running and predicted_outputs database/table is created.
