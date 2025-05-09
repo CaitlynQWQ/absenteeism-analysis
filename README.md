@@ -1,10 +1,10 @@
-# 🧑‍💼 Absenteeism Analysis & Prediction
+# Absenteeism Analysis & Prediction
 
 This project performs a logistic regression analysis on employee absenteeism data using **Python**, **SQL**, and **Jupyter Notebook**. The goal is to identify key factors behind employee absences and predict the likelihood of high absenteeism. The full pipeline includes data preprocessing, model training, prediction, and SQL integration for deployment.
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 - **Goal:** Predict which employees are at higher risk of being excessively absent.
 - **Tech Stack:** Python (pandas, scikit-learn), MySQL (via `pymysql`), Jupyter
@@ -13,7 +13,7 @@ This project performs a logistic regression analysis on employee absenteeism dat
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 - **Original Dataset:** `Absenteeism_data.xlsx`
 - **Key Features:**
@@ -31,7 +31,7 @@ This project performs a logistic regression analysis on employee absenteeism dat
 
 ---
 
-## 🧠 Model Summary
+## Model Summary
 
 - **Algorithm:** Logistic Regression
 - **Train Accuracy:** ~77%
@@ -42,7 +42,7 @@ This project performs a logistic regression analysis on employee absenteeism dat
 
 ---
 
-## 🗃️ SQL Integration
+## SQL Integration
 
 The final predictions are written into a MySQL table named `predicted_outputs` with the following schema:
 
