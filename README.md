@@ -65,7 +65,7 @@ CREATE TABLE predicted_outputs (
 ```
 ---
 ## Project Structure
-
+```bash
 absenteeism-analysis/
 ├── 01.Data_Preprocessing.ipynb             # Cleaning, transformation
 ├── 02.Modeling_Logistic_Regression.ipynb   # Logistic regression training & evaluation
@@ -77,11 +77,16 @@ absenteeism-analysis/
 ├── scaler                                  # Pickled scaler (.pkl)
 ├── SQLquery.sql                            # SQL table schema
 └── README.md                               # You’re here!
+
+```
 ---
 ## How to Run
 Clone the repository:
+```git
 git clone https://github.com/CaitlynQWQ/absenteeism-analysis.git
+
 cd absenteeism-analysis
+```
 Open the notebooks in JupyterLab or VS Code and execute in order:
 
 01.Data_Preprocessing.ipynb
